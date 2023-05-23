@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{border: 1px solid #880054; text-align: center; border-collapse: collapse; padding: 8px;}
+        #toggle{display: none;}
+        .expandable{visibility: collapse; background: bisque;}
+        #btn{display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: cadetblue; color: #dff; cursor: pointer; border-radius: 3px;}
+        #toggle:checked~*.expandable{visibility: visible;}
+        #toggle:checked~#btn{background-color: #ff0000;}
+        div{margin: 10px; font-size: 20px;}
+        input:checked + label {color: #000;}
+        input[type="radio"]:checked{box-shadow: 0 0 0 4px greenyellow;}
+        /*Checkbox element, when checked*/
+        input[type="checkbox"]:checked{box-shadow: 0 0 0 3px pink;}
+        p::after{content:"- William Shakespeare."; background-color: #ddf585; color: rgb(12, 1, 112); padding: 5px 3px; border: 2px dashed #000; margin-left: 5px;}
+        p::before{content:"William Shakespeare -"; background-color: aqua; color:#ff0000; border: 2px dotted rgb(255, 0, 212);}
+    </style>
+</head>
+<body>
+    <h1>Пример селектора ::checked</h1>
+    <input type="checkbox" id="toggle"/>
+    <table>
+        <thead>
+            <tr>
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="expandable">
+                <td>[Больше текста]</td>
+                <td>[Больше текста]</td>
+                <td>[Больше текста]</td>
+            </tr>
+        <tr>
+                <td>[Текст]</td>
+                <td>[Текст]</td>
+                <td>[Текст]</td>
+            </tr>
+            <tr class="expandable">
+                <td>[Больше текста]</td>
+                <td>[Больше текста]</td>
+                <td>[Больше текста]</td>
+        </tr>
+        <tr>
+            <td>[Текст]</td>
+            <td>[Текст]</td>
+            <td>[Текст]</td>
+        </tr>
+        <tr class="expandable">
+                <td>[Больше текста]</td>
+                <td>[Больше текста]</td>
+                <td>[Больше текста]</td>
+        </tr>
+        </tbody>
+    </table>
+    <label for="toggle" id="btn">Нажмите сюда!</label>
+    <h2>Пример селектора  ::after и ::before</h2>
+    <p>"Be or not to be"</p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+ <html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Ютубчик</title>
+  <style>
+   body{background:rgb(255, 0, 0);color:#ff9028;}
+  </style>
+<style type="text/css">
+<link rel="stylesheet" type="text/css" href="C:\Users\stud301-09\Documents\Киселев ИС-21\14.02\new.css">
+ </style>
+   <p style="text-align:right;color:#8400ff;font-size:24px;text-decoration:overline;">
+  <h1>Это только начало</h1>
+  <h2>Текстовик</h2>
+  <p>Микро текст</p>
+<table style="font-family:Arial;font-size:90%;color:rgba(0, 110, 255, 0.63);font-weight:Bold;width:110%">
+    </head>
+    <body>
+ <th colspan="4">Таблица</th>
+ <tr>
+  <td> BTC </td>
+  <td> ETH </td>
+  <td> LTC </td>
+ </tr>
+ <tr>
+  <td> Shorts </td>
+  <td> Monetizeid </td>
+  <td> YouTube </td>
+ </tr>
+ <tr>
+  <td> Глент </td>
+  <td> Кобяков </td>
+  <td> А4 </td>
+ </tr>
+ </table>
+ </body>
+</html>

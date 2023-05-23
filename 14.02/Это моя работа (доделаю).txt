@@ -1,0 +1,33 @@
+﻿<!DOCTYPE HTML>
+ <html>
+  <head>
+  <meta http-equir="content-type" content="text/html; charset=UTF-8">
+  <title>Текст</title>
+ <style>
+<style type="text/css">
+h1{text-align:center}
+h2{text-align:right}
+ </style>
+ </html>
+  </head>
+ <body>
+  <h1>Заголовок</h1>
+  <h2>Текст</h2>
+  <p>Микро текст</p>
+<table style="font-family:Arial>; font-size:90%; color:Blue; font-weight:Bold; weidth:110%">
+ <tr>
+  <tr> Cell 1,1 </td>
+  <td> Cell 1,2 </td>
+  <tr> Cell 1,3 </td>
+ </tr>
+ <tr>
+  <tr> Cell 2,1 </td>
+  <td> Cell 2,2 </td>
+  <tr> Cell 2,3 </td>
+ </tr>
+ <tr>
+  <tr> Cell 3,1 </td>
+  <td> Cell 3,2 </td>
+  <tr> Cell 3,3 </td>
+ </tr>
+</table>

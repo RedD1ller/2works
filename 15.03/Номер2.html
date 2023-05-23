@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DVD Screensaver</title>
+    <style>
+      body {
+        background: linear-gradient(to right, rgb(78, 163, 241), rgb(192, 19, 155), rgb(53, 53, 219), rgb(0, 255, 0), rgb(255, 0, 0), rgb(247, 40, 195), rgb(251, 255, 42));
+        background-size: 1800% 1800%;
+        animation: rainbow 7s ease infinite;
+      }
+      
+      @keyframes rainbow {
+        0% {
+          background-position: 0% 50%;
+        }
+        
+        50% {
+          background-position: 100% 50%;
+        }
+        
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      body {
+        background-color: #000000;
+      }
+
+      .dvd {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: #e5ff00;
+        border-radius: 50%;
+        animation: dvd 6s infinite;
+      }
+
+      @keyframes dvd {
+        0% {
+          top: 0;
+          left: 0;
+        }
+        25% {
+          top: 0;
+          left: calc(50% - 150px);
+        }
+        50% {
+          top: calc(70% - 100px);
+          left: calc(100% - 100px);
+        }
+        75% {
+          top: calc(100% - 100px);
+          left: 0;
+        }
+        100% {
+          top: 0;
+          left: 0;
+        }
+      }
+      .block {
+   width: 100px;
+   height: 100px;
+   background-color: #48ff00;
+   position: relative;
+   animation-name: move;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+  }
+
+  @keyframes move {
+   from { left: 0; }
+   to { left: 200px; }
+   25% {
+          top: 0;
+          left: calc(30% - 150px);
+        }
+  }
+  
+    </style>
+  </head>
+  <body>
+    <div class="dvd"></div>
+    <div class="block"></div>
+  </body>
+</html>

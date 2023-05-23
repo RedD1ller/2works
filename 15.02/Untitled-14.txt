@@ -1,0 +1,9 @@
+body{background:rgb(0, 255, 234);color:#ff9028;}
+<link rel="stylesheet" type="text/css" href="C:\Users\stud301-09\Documents\Киселев ИС-21\14.02\new.css">
+<style>
+    body{background:rgb(30, 255, 0);color:#ff4828;}
+   </style>
+
+body{background:rgb(30, 255, 0);color:#ff4828;}
+</style>
+<style type="text/css">

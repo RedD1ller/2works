@@ -1,0 +1,12 @@
+<html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css">
+       p{color:aquamarine;
+         backround-color: beige;}
+       table{text-align: center;}
+       width: 400px;heigh: 300px;}
+       div {text-align: center;}
+  </style>
+ <head>
+<html>

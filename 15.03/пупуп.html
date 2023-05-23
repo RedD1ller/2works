@@ -1,0 +1,29 @@
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Анимированные блоки</title>
+ <style>
+  .block {
+   width: 100px;
+   height: 100px;
+   background-color: #F44336;
+   position: relative;
+   animation-name: move;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+  }
+
+  @keyframes move {
+   from { left: 0; }
+   to { left: 200px; }
+  }
+ </style>
+</head>
+<body>
+ <div class="block"></div>
+</body>
+</html>

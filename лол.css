@@ -1,0 +1,39 @@
+body {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+h1{
+    color: rgb(0, 26, 255);
+    text-align: center;
+    font-size: 30px;
+    
+}
+h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 30px;
+       
+}
+h2{
+    color: rgb(0, 238, 255);
+    text-align: center;
+    font-size: 18px;
+}
+.pamparam{
+    background: url(JOJO.gif)  no-repeat center;
+    background-size: cover;
+   
+    border: rgb(24, 230, 86) 2px solid;
+    padding: 5px;
+    width: 1830px;
+    height: 1600px;
+}
+.pamparama{
+    position: fixed;
+    left: 250px;
+    top: 300px;
+    border: rgb(209, 179, 6) 6px double;
+    padding: 5px;
+    width: 1400px;
+    height: 150px;
+    color: rgb(206, 32, 139);
+    text-align: center;
+    font-size: 60px;
+}

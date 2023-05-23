@@ -1,0 +1,12 @@
+<html>
+ <head>
+   <title>Заголовок</title>
+  <style>
+   body{background;#800080;color:#0000ff;}
+  </style>
+ <head>
+ <body>
+  <p>Это сайтик</p>
+ </body>
+<html>
+

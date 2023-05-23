@@ -1,0 +1,9 @@
+.bubu{color:darkslategray; text-align: right;}
+p.bubu{color: rgb(255, 208, 0); text-align: center;background-color: aqua;}
+.coco,p,b{color: mediumslateblue;text-align: unset;background-color:rgb(26, 255, 26);} 
+body{background-color: rgba(217, 255, 1, 0.616);}
+ span{color: blueviolet;background-color: brown;}
+ b span{color: rgb(255, 0, 255);background-color: aquamarine;}
+ caption{caption-side:bottom; text-align: right;}
+ table{background-color: rgb(102, 47, 255);padding: 0%;width: 100%; height: 200px; border: rgb(255, 118, 68) 5px dotted;}
+ td{background-color: blueviolet;  border: rgb(46, 241, 255) double; text-align: center;}

@@ -1,0 +1,8 @@
+table{padding: 30px;background-color: orangered; width: 100%;text-align: center;}
+body{background-color: rgb(255, 109, 109);}
+th{background-color: aquamarine;height: 100px;}
+td{background-color: aquamarine;height: 200px;}
+caption{caption-side: top; text-align: left;color:whitesmoke;}
+a{text-align: left;color:whitesmoke; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 48px;}   
+tr:nth-child(even) {background-color: aqua;}
+tr:nth-child(odd) {background-color: rgb(47, 26, 231);}
